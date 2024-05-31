@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+.around{
+    border: 1px solid grey;
+    backdrop-filter: blur(19px);
+    position: relative; 
+    line-height: 2;
+    padding: 2rem 4rem;
+    border-radius: 2rem;
+}
+
+section .register{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.input{
+    width: 100%;
+    height: 36px;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    border: 2px solid gray;
+    border-radius: 1rem;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.inputt{
+    position: relative;
+}
+
+span{
+    position: absolute;
+    right: 2%;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: black;
+}
+
+
+.font{
+    margin-left: 2rem;
+}
+
+button{
+    width: 140px;
+    padding: .2em;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    border: 1px solid white;
+}
+
+button:hover{
+    transition: .5s;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.buttons{
+    font-size: 16px;
+}
+
+.buttons a{
+    color: white;
+    text-decoration: none;
+}
+
+.buttons a:hover{
+    text-decoration: underline;
+}
+
+

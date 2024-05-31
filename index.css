@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(wallpaperflare.com_wallpaper\ \(18\).jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    z-index: 100;
+}
+
+.head .h1{
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+.navlist a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+    transform: translateX(1);
+    transform-origin: left;
+    transition: .5s;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content p{
+    font-size: 18px;
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home-content h1{
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+.home-content h3{
+    font-size: 26px;
+}
+
+.random a{
+    font-size: 17px;
+    background-color: darkblue;
+    border: 1px solid rgba(225, 225, 225, .2);
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.random a:hover{
+    background-color: black;
+    border: 1px solid white;
+    transition: .5s;
+}
+
+.random .link{
+    margin-left: 3rem;
+}
